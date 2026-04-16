@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style="background-color:cadetblue" ">
+Enter Name:<input type="text" id="name">
+<button  onclick="showName()" >submit 
+</button>
+<p id="result" style="background-color:cornflowerblue ",></p>
+<script>
+    function showName(){
+        let userName=document.getElementById("name").value;
+        document.getElementById("result").innerHTML="Hello  "+userName;
+
+    }
+</script>
+</div>
+ 
+    
+</body>
+</html>
