@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let win_num=25;
+        let guess=prompt("enter your guess : ");
+        while(guess!=win_num){
+            if (win_num >guess){
+                console.log("your guess is smaller");
+                guess=prompt("guess again");
+            }
+            if(win_num<guess){
+                console.log("your guess is bigger");
+                guess=prompt("guess again");
+        
+            }
+             if(win_num==guess){
+                console.log("You gussed the right number")
+            } 
+        
+        }
+        
+    </script>
+    
+</body>
+</html>
