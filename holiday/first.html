@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let win_no=56;
+        let guess_no=Number(prompt("enter your guess"));
+        /*while(win_no!==guess_no){
+            if(win_no>guess_no){
+                console.log("no is smaller");
+            }else{
+                console.log("no is bigger");
+            }
+            guess_no=Number(prompt("enter your number"));
+        }
+        console.log("you won"); */
+        for(let i=0;i<=100;i++){
+            if(win_no!==guess_no){
+                guess_no=Number(prompt("enter your guess"));
+                
+            }else{
+                console.log("you won");
+                break;
+            }
+        }
+    
+    </script>
+    
+</body>
+</html>

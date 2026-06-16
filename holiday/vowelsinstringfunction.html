@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function vowel(string){
+           let vowel=["a","e","i","o","u","A","E","I","O","U"];
+           let v_count=0;
+            
+            for(let val of string){
+                if(vowel.includes(val)){
+                   v_count++;
+                }
+            }
+            console.log(v_count);
+        }
+           
+            vowel("ayushpathak")
+    </script>
+    
+</body>
+</html>
