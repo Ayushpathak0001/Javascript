@@ -1,0 +1,60 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:aquamarine;
+    text-align:center;
+}
+.container{
+    height:70vh;
+    display:flex; 
+    justify-content: center;
+    align-items:center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items:center;
+    gap:1.8vmin;
+    
+}
+.box{
+    
+    height:18vmin;
+    width:18vmin;
+    border-radius:20px;
+    border:none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    font-size:80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:cadetblue;
+    color:azure
+    
+}
+#new{
+    padding:5px;
+    border-radius:15px;
+    background-color:black;
+    color:white;
+
+}
+
+.msgcontainer{
+    height:14vh;
+}
+#msg{
+    font-size:40px;
+    color:goldenrod;
+    
+}
+.hide{
+    display:none;
+}
